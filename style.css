@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:url(images/back.webp) ;
+}
+
+.contain{
+    display: grid;
+}
+
+.navicon{
+    width: 2px;
+    height: 600px;
+}
+
+.nav{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+     
+}
+
+.navi{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+    h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: goldenrod;
+    
+    }
+
+
+    h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h4{
+        color: goldenrod;
+    }
+}   
+
+.mypic{
+    /* width: 20px; */
+    border-radius: 10x;
+}
+
+.nav:hover{
+    color: blue;
+}
