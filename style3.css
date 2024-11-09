@@ -18,21 +18,30 @@ body{
     border-radius: 8px;
     cursor: pointer;
     text-decoration: none;
+
+    button{
+        border-radius: 8px;
+        background-color:gray ;
+        color: white;
+        text-decoration: none;
+    }
     
 }
 
 .nav:hover{
-    color: blue;
+    color: blue
 }
 
 .reach{
     
     h1{
-    color:gr;
+    background-color:#0C212C;
     border: 1px solid ;
     text-align: center;
     border-radius: 15px;
     padding: 30x;
+    color: #AAAAAA;
+    
 
 }
 
@@ -42,6 +51,7 @@ body{
     justify-content: space-between;
     max-width: 80px;
     column-gap: 60px;
+    text-decoration: none;
         
 }
 
@@ -58,3 +68,21 @@ body{
     margin-top: 100px;
     
 }
+
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .bee img {
+      height: 50%;
+      animation: rotate 2s infinite linear;
+  }

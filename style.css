@@ -21,6 +21,13 @@ body{
     border-radius: 8px;
     cursor: pointer;
     text-decoration: none;
+
+    button{
+        border-radius: 8px;
+        background-color:gray ;
+        color: white;
+        text-decoration: none;
+    }
      
 }
 
@@ -50,5 +57,13 @@ body{
 }
 
 .nav:hover{
-    color: blue;
+    color: blue
 }
+
+
+@media only screen and (max-width: 768px) {
+
+    [class*="col-"] {
+      width: 100%;
+    }
+}    

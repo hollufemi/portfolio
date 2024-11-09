@@ -27,9 +27,12 @@ body{
 .to{
     text-align: center;
 
-    h1{margin-right: 30px;}
-    
-}
+    h1{
+        margin-right: 30px;
+        font-size: 35px;  
+    }
+
+    }
 
 .for{
  display: flex;
@@ -40,8 +43,6 @@ body{
     align-items: center;
     margin-left: 30px;
 }
-
-
 
 .ball a{
     display: flex;
@@ -62,11 +63,18 @@ body{
     border-radius: 8px;
     cursor: pointer;
     text-decoration: none;
+
+    button{
+        border-radius: 8px;
+        background-color:gray ;
+        color: white;
+        text-decoration: none;
+    }
     
 }
 
 .nav:hover{
-    color: blue;
+    color: blue
 }
 
 
